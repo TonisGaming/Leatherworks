@@ -22,12 +22,12 @@
 	"GAMEPLAY_MetalBoxTanned": {
 		"English": "Metal Box with Prepared Leather",
 		"Turkish": "Hazır Deri İçeren Metal Kutu",
-		"Italian": "Scatola di Metallo con Cuoio Preparata"
+		"Italian": "Scatola di Metallo con Cuoio Preparato"
 	},
 	"GAMEPLAY_MetalBoxTannedDescription": {
 		"English": "A metal box containing prepared leather.",
 		"Turkish": "Hazır deri içeren metal bir kutu.",
-		"Italian": "Una scatola di metallo che contiene cuoio preparata."
+		"Italian": "Una scatola di metallo che contiene cuoio preparato."
 	},
 	"GAMEPLAY_LeatherScraped": {
 		"English": "Scraped Leather",
