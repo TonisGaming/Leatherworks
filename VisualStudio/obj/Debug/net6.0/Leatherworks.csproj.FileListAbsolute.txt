@@ -14,3 +14,12 @@ C:\Users\tonis\OneDrive\Töölaud\TLDMod\LeatherScrapeButton\VisualStudio\obj\De
 C:\Users\tonis\OneDrive\Töölaud\TLDMod\LeatherScrapeButton\VisualStudio\bin\Debug\net6.0\Leatherworks.deps.json
 C:\Users\tonis\OneDrive\Töölaud\TLDMod\LeatherScrapeButton\VisualStudio\bin\Debug\net6.0\Leatherworks.dll
 C:\Users\tonis\OneDrive\Töölaud\TLDMod\LeatherScrapeButton\VisualStudio\obj\Debug\net6.0\ref\Leatherworks.dll
+C:\Users\tpodo\source\repos\cola98765\Leatherworks\VisualStudio\bin\Debug\net6.0\Leatherworks.deps.json
+C:\Users\tpodo\source\repos\cola98765\Leatherworks\VisualStudio\bin\Debug\net6.0\Leatherworks.dll
+C:\Users\tpodo\source\repos\cola98765\Leatherworks\VisualStudio\obj\Debug\net6.0\Leatherworks.csproj.AssemblyReference.cache
+C:\Users\tpodo\source\repos\cola98765\Leatherworks\VisualStudio\obj\Debug\net6.0\Leatherworks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tpodo\source\repos\cola98765\Leatherworks\VisualStudio\obj\Debug\net6.0\Leatherworks.csproj.CoreCompileInputs.cache
+C:\Users\tpodo\source\repos\cola98765\Leatherworks\VisualStudio\obj\Debug\net6.0\Leatherworks.sourcelink.json
+C:\Users\tpodo\source\repos\cola98765\Leatherworks\VisualStudio\obj\Debug\net6.0\Leatherworks.dll
+C:\Users\tpodo\source\repos\cola98765\Leatherworks\VisualStudio\obj\Debug\net6.0\refint\Leatherworks.dll
+C:\Users\tpodo\source\repos\cola98765\Leatherworks\VisualStudio\obj\Debug\net6.0\ref\Leatherworks.dll

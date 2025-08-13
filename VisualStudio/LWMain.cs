@@ -1,15 +1,16 @@
 ﻿using Il2Cpp;
 using Il2CppHoloville.HOTween.Core.Easing;
+using Il2CppMS.Internal.Xml.XPath;
+using Il2CppNodeCanvas.BehaviourTrees;
+using Il2CppTLD.Gameplay.Condition;
+using Il2CppTLD.Gear;
+using Il2CppTLD.IntBackedUnit;
+using JetBrains.Annotations;
 using Leatherworks;
 using MelonLoader;
 using System.Net.NetworkInformation;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
-using Il2CppTLD.Gear;
-using Il2CppTLD.Gameplay.Condition;
-using Il2CppNodeCanvas.BehaviourTrees;
-using JetBrains.Annotations;
-using Il2CppMS.Internal.Xml.XPath;
 
 namespace ModNamespace
 {
@@ -95,21 +96,21 @@ namespace ModNamespace
 
                 gear.AddComponent<IngestedCarryCapacityBuff>();
                 gear.GetComponent<IngestedCarryCapacityBuff>().m_CarryCapacityBuffDurationInHours = 0.125f;
-                gear.GetComponent<IngestedCarryCapacityBuff>().m_CarryCapacityChangeKG = 0.25f;
+                gear.GetComponent<IngestedCarryCapacityBuff>().m_CarryCapacityChange = ItemWeight.FromKilograms(0.25f);
 
 
                 gear = GearItem.LoadGearItemPrefab("GEAR_" + gear5).gameObject;
 
                 gear.AddComponent<IngestedCarryCapacityBuff>();
                 gear.GetComponent<IngestedCarryCapacityBuff>().m_CarryCapacityBuffDurationInHours = 1f;
-                gear.GetComponent<IngestedCarryCapacityBuff>().m_CarryCapacityChangeKG = 0.75f;
+                gear.GetComponent<IngestedCarryCapacityBuff>().m_CarryCapacityChange = ItemWeight.FromKilograms(0.75f);
 
 
                 gear = GearItem.LoadGearItemPrefab("GEAR_" + gear6).gameObject;
 
                 gear.AddComponent<IngestedCarryCapacityBuff>();
                 gear.GetComponent<IngestedCarryCapacityBuff>().m_CarryCapacityBuffDurationInHours = 1.5f;
-                gear.GetComponent<IngestedCarryCapacityBuff>().m_CarryCapacityChangeKG = 2f;
+                gear.GetComponent<IngestedCarryCapacityBuff>().m_CarryCapacityChange = ItemWeight.FromKilograms(2f);
 
                 gear = GearItem.LoadGearItemPrefab("GEAR_" + gear7).gameObject;
 
@@ -125,7 +126,7 @@ namespace ModNamespace
 
                 gear.AddComponent<InsulatedFlask>();
                 gear.GetComponent<InsulatedFlask>().m_ItemConstraints = liquidRestriction;
-                gear.GetComponent<InsulatedFlask>().m_CapacityLitres = 0.4f;
+                gear.GetComponent<InsulatedFlask>().m_Capacity = ItemLiquidVolume.Liter * 0.4f;
                 gear.GetComponent<InsulatedFlask>().m_GearItem = itemGear;
                 gear.GetComponent<InsulatedFlask>().m_FallDamagePerMeter = 2;
                 gear.GetComponent<InsulatedFlask>().m_PercentHeatLossPerMinuteIndoors = 0.35f;
@@ -139,7 +140,7 @@ namespace ModNamespace
 
                 gear.AddComponent<InsulatedFlask>();
                 gear.GetComponent<InsulatedFlask>().m_ItemConstraints = liquidRestriction;
-                gear.GetComponent<InsulatedFlask>().m_CapacityLitres = 0.1f;
+                gear.GetComponent<InsulatedFlask>().m_Capacity = ItemLiquidVolume.Liter * 0.1f;
                 gear.GetComponent<InsulatedFlask>().m_GearItem = itemGear;
                 gear.GetComponent<InsulatedFlask>().m_FallDamagePerMeter = 2;
                 gear.GetComponent<InsulatedFlask>().m_PercentHeatLossPerMinuteIndoors = 0.01f;
@@ -153,7 +154,7 @@ namespace ModNamespace
 
                 gear.AddComponent<InsulatedFlask>();
                 gear.GetComponent<InsulatedFlask>().m_ItemConstraints = liquidRestriction;
-                gear.GetComponent<InsulatedFlask>().m_CapacityLitres = 0.8f;
+                gear.GetComponent<InsulatedFlask>().m_Capacity = ItemLiquidVolume.Liter * 0.8f;
                 gear.GetComponent<InsulatedFlask>().m_GearItem = itemGear;
                 gear.GetComponent<InsulatedFlask>().m_FallDamagePerMeter = 2;
                 gear.GetComponent<InsulatedFlask>().m_PercentHeatLossPerMinuteIndoors = 0.25f;
@@ -167,7 +168,7 @@ namespace ModNamespace
 
                 gear.AddComponent<InsulatedFlask>();
                 gear.GetComponent<InsulatedFlask>().m_ItemConstraints = liquidRestriction;
-                gear.GetComponent<InsulatedFlask>().m_CapacityLitres = 0.8f;
+                gear.GetComponent<InsulatedFlask>().m_Capacity = ItemLiquidVolume.Liter * 0.8f;
                 gear.GetComponent<InsulatedFlask>().m_GearItem = itemGear;
                 gear.GetComponent<InsulatedFlask>().m_FallDamagePerMeter = 2;
                 gear.GetComponent<InsulatedFlask>().m_PercentHeatLossPerMinuteIndoors = 0.25f;
@@ -181,7 +182,7 @@ namespace ModNamespace
 
                 gear.AddComponent<InsulatedFlask>();
                 gear.GetComponent<InsulatedFlask>().m_ItemConstraints = liquidRestriction;
-                gear.GetComponent<InsulatedFlask>().m_CapacityLitres = 0.8f;
+                gear.GetComponent<InsulatedFlask>().m_Capacity = ItemLiquidVolume.Liter *    0.8f;
                 gear.GetComponent<InsulatedFlask>().m_GearItem = itemGear;
                 gear.GetComponent<InsulatedFlask>().m_FallDamagePerMeter = 2;
                 gear.GetComponent<InsulatedFlask>().m_PercentHeatLossPerMinuteIndoors = 0.25f;
