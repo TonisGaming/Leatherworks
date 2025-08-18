@@ -2,12 +2,12 @@
 	"GAMEPLAY_MetalBoxTanning": {
 		"English": "Metal Box with Leather Preparing",
 		"Turkish": "Deri Yapım Seti İçeren Metal Kutu",
-		"Italian": "Scatola in Metallo con Preparazione della Pelle"
+		"Italian": "Scatola di Metallo con Preparazione del Cuoio"
 	},
 	"GAMEPLAY_MetalBoxTanningDescription": {
 		"English": "A box containing tanning and scraped leather to make leather.",
 		"Turkish": "Deri yapmak için tabaklanmış ve kazınmış deri içeren bir kutu.",
-		"Italian": "Una scatola che contiene concia e pelle raschiata per creare pelle."
+		"Italian": "Una scatola che contiene concia e pelle raschiata per creare cuoio."
 	},
 	"GAMEPLAY_MetalBoxTanFilled": {
 		"English": "Metal Box with Tanning",
@@ -17,17 +17,17 @@
 	"GAMEPLAY_MetalBoxTanFilledDescription": {
 		"English": "A metal box filled with tanning to prepare leather.",
 		"Turkish": "Deri yapmak için tabaklama ile doldurulmuş metal bir kutu.",
-		"Italian": "Una scatola di metallo riempita di concia per preparare la pelle."
+		"Italian": "Una scatola di metallo riempita di concia per preparare il cuoio."
 	},
 	"GAMEPLAY_MetalBoxTanned": {
 		"English": "Metal Box with Prepared Leather",
 		"Turkish": "Hazır Deri İçeren Metal Kutu",
-		"Italian": "Scatola di Metallo con Pelle Preparata"
+		"Italian": "Scatola di Metallo con Cuoio Preparato"
 	},
 	"GAMEPLAY_MetalBoxTannedDescription": {
 		"English": "A metal box containing prepared leather.",
 		"Turkish": "Hazır deri içeren metal bir kutu.",
-		"Italian": "Una scatola di metallo che contiene pelle preparata."
+		"Italian": "Una scatola di metallo che contiene cuoio preparato."
 	},
 	"GAMEPLAY_LeatherScraped": {
 		"English": "Scraped Leather",
@@ -72,7 +72,7 @@
 	"GAMEPLAY_CookedTanningDescription": {
 		"English": "A dark thick liquid, that is used in preparing leather.",
 		"Turkish": "Deri hazırlamada kullanılan koyu kıvamlı bir sıvıdır.",
-		"Italian": "Un liquido nero e denso, che è usato nella preparazione di pelli."
+		"Italian": "Un liquido nero e denso, che è usato nella preparazione del cuoio."
 	},
 	"GAMEPLAY_UncookedTanning": {
 		"English": "Wet Treebark",
@@ -102,7 +102,7 @@
 	"GAMEPLAY_BarkPreparedFriedDescription": {
 		"English": "A bit dry and tough. Tastes like potato chips. Could be crushed into flour.",
 		"Turkish": "Biraz kuru ve sert. Tadı patates cipsi gibi. Ezilerek un haline getirilebilir.",
-		"Italian": "Un po' secchi e duri. Hanno un gusto come le patatine. Possono essere macinate per creare farina."
+		"Italian": "Un po' secche e dure. Hanno un gusto come le patatine. Possono essere macinate per creare farina."
 	},
 	"GAMEPLAY_BarkPreparedPile": {
 		"English": "Pile of Prepared Bark",
@@ -122,7 +122,7 @@
 	"GAMEPLAY_BarkPreparedFriedPileDescription": {
 		"English": "A bit dry and tough. Tastes like potato chips. Could be crushed into flour.",
 		"Turkish": "Biraz kuru ve sert. Tadı patates cipsi gibi. Ezilerek un haline getirilebilir.",
-		"Italian": "Un po' secchhi e duri. Hanno un gusto come le patatine. Possono essere macinate per creare farina."
+		"Italian": "Un po' secche e dure. Hanno un gusto come le patatine. Possono essere macinate per creare farina."
 	},
 	"GAMEPLAY_BirchBarkPreparedFryable": {
 		"English": "Prepared Birch Bark (Fryable)",
@@ -142,7 +142,7 @@
 	"GAMEPLAY_BirchBarkPreparedFriedDescription": {
 		"English": "A bit dry and tough. Tastes like potato chips.",
 		"Turkish": "Biraz kuru ve sert. Tadı patates cipsi gibi.",
-		"Italian": "Un po' secchi e duri. Hanno un gusto come le patatine."
+		"Italian": "Un po' secche e dure. Hanno un gusto come le patatine."
 	},
 	"GAMEPLAY_BirchBarkPreparedPile": {
 		"English": "Pile of Prepared Birch Bark",
@@ -162,12 +162,12 @@
 	"GAMEPLAY_BirchBarkPreparedFriedPileDescription": {
 		"English": "A bit dry and tough. Tastes like potato chips.",
 		"Turkish": "Biraz kuru ve sert. Tadı patates cipsi gibi.",
-		"Italian": "Un po' secchi e duri. Hanno un gusto come le patatine."
+		"Italian": "Un po' secche e dure. Hanno un gusto come le patatine."
 	},
 	"GAMEPLAY_UnCookedBarkNoodles": {
 		"English": "Uncooked Bark Noodles",
 		"Turkish": "Pişmemiş Ağaç Kabuğu Eriştesi",
-		"Italian": "Tagliatelle di Corteccia Crudi"
+		"Italian": "Tagliatelle di Corteccia Crude"
 	},
 	"GAMEPLAY_UnCookedBarkNoodlesDescription": {
 		"English": "Prepared bark and water. Doesn't look that enticing.",
@@ -207,7 +207,7 @@
 	"GAMEPLAY_UnCookedBirchBarkNoodles": {
 		"English": "Uncooked Birch Bark Noodles",
 		"Turkish": "Pişmemiş Huş Kabuğu Eriştesi",
-		"Italian": "Tagliatelle di Corteccia di Betulla Crudi"
+		"Italian": "Tagliatelle di Corteccia di Betulla Crude"
 	},
 	"GAMEPLAY_UnCookedBirchBarkNoodlesDescription": {
 		"English": "Prepared bark and water. Doesn't look that enticing.",
@@ -252,7 +252,7 @@
 	"GAMEPLAY_ImprovedJacketLeatherDescription": {
 		"English": "An already thick leather jacket modified with extra patches of leather. Should give you an extra second or two to escape a struggle.",
 		"Turkish": "Zaten kalın olan deri ceket ekstra deri parçalarla değiştirilmiş. Boğuşmadan kaçmak için fazladan bir iki saniye kazandırır.",
-		"Italian": "Una giacca di pelle già spessa modificata con toppe di pelli extra. Dovrebbe darti qualche secondo in più per fuggire dalle lotte."
+		"Italian": "Una giacca in cuoio già spessa modificata con toppe di cuoio extra. Dovrebbe darti qualche secondo in più per fuggire dalle lotte."
 	},
 	"GAMEPLAY_ImprovedDownInsulation": {
 		"English": "Improved Down Insulation",
@@ -262,7 +262,7 @@
 	"GAMEPLAY_ImprovedDownInsulationDescription": {
 		"English": "A base layer improved with patches of leather. Warms the core to the point of sweating.",
 		"Turkish": "Deri yamaları ile geliştirilmiş bir taban katmanı. Çekirdeği terleme noktasına kadar ısıtır.",
-		"Italian": "Uno strato di base migliorato con toppe di pelli. Scalda il core fino a far sudare."
+		"Italian": "Uno strato di base migliorato con toppe di cuoio. Scalda il cuore fino a far sudare."
 	},
 	"GAMEPLAY_ImprovedLongJohns": {
 		"English": "Improved Underwear",
@@ -272,7 +272,7 @@
 	"GAMEPLAY_ImprovedLongJohnsDescription": {
 		"English": "Thermal underwear with loads of leather patches. Might get a bit sweaty.",
 		"Turkish": "Bir sürü deri yamalı termal iç çamaşırı. Biraz terletebilir.",
-		"Italian": "Intimo termico con tante toppe di pelli. Potrebbe causare un po' di sudore."
+		"Italian": "Intimo termico con tante toppe di cuoio. Potrebbe causare un po' di sudore."
 	},
 	"GAMEPLAY_ImprovisedFlask": {
 		"English": "Improvised Flask",
@@ -357,12 +357,12 @@
 	"GAMEPLAY_LW_TanLeatherProgressBar": {
 		"English": "Soaking...",
 		"Turkish": "Sırılsıklam...",
-		"Italian": "Ammollamento..."
+		"Italian": "Inzuppamento..."
 	},
 	"GAMEPLAY_LW_AddLeatherLabel": {
 		"English": "Soak",
 		"Turkish": "Islat",
-		"Italian": "Bagna"
+		"Italian": "Inzuppa"
 	},
 	"GAMEPLAY_LW_NoTanning": {
 		"English": "You require tanning for this action",
@@ -407,12 +407,12 @@
 	"GAMEPLAY_LW_PileBarkLabel": {
 		"English": "Pile",
 		"Turkish": "Yığın",
-		"Italian": "Pila"
+		"Italian": "Impila"
 	},
 	"GAMEPLAY_LW_PileProgressBar": {
 		"English": "Piling...",
 		"Turkish": "Yığınlanıyor...",
-		"Italian": "Accumulamento..."
+		"Italian": "Impilamento..."
 	},
 	"GAMEPLAY_LW_UnPileProgressBar": {
 		"English": "Unpiling...",
