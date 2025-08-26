@@ -753,14 +753,29 @@ namespace Leatherworks
         private static void OnMakeRope()
         {
             var knife1 = GameManager.GetInventoryComponent().GearInInventory(LeatherworksUtils.knife1, 1);
+            var knife1_exist = false;
             var knife2 = GameManager.GetInventoryComponent().GearInInventory(LeatherworksUtils.knife2, 1);
+            var knife2_exist = false;
             //var knife3 = GameManager.GetInventoryComponent().GearInInventory(LeatherworksUtils.knifecamp1, 1);
             //var knife4 = GameManager.GetInventoryComponent().GearInInventory(LeatherworksUtils.knifecamp2, 1);
             var thisGearItem = LWFunctionalities.ropeItem;
             GearItem bark = GameManager.GetInventoryComponent().GetBestGearItemWithName("GEAR_BarkPrepared");
 
+            if (GameManager.GetInventoryComponent().GetBestGearItemWithName(LeatherworksUtils.knife1.name) is object)
+            {
+                knife1 = GameManager.GetInventoryComponent().GetBestGearItemWithName(LeatherworksUtils.knife1.name);
+                knife1_exist = true;
+            }
+
+            if (GameManager.GetInventoryComponent().GetBestGearItemWithName(LeatherworksUtils.knife2.name) is object)
+            {
+                knife2 = GameManager.GetInventoryComponent().GetBestGearItemWithName(LeatherworksUtils.knife2.name);
+                knife2_exist = true;
+            }
+            
             if (thisGearItem == null) return;
-            if (GameManager.GetInventoryComponent().GearInInventory(knife1, 1) || GameManager.GetInventoryComponent().GearInInventory(knife2, 1))
+            
+            if (knife1_exist || knife2_exist)
             {
                 
                 
@@ -800,13 +815,34 @@ namespace Leatherworks
         {
             var knife1 = GameManager.GetInventoryComponent().GearInInventory(LeatherworksUtils.knife1, 1);
             var knife2 = GameManager.GetInventoryComponent().GearInInventory(LeatherworksUtils.knife2, 1);
+            var knife1_exist = false;
+            var knife2_exist = false;            
+            var thisGearItem = LWFunctionalities.ropeItem;
             //var knife3 = GameManager.GetInventoryComponent().GearInInventory(LeatherworksUtils.knifecamp1, 1);
             //var knife4 = GameManager.GetInventoryComponent().GearInInventory(LeatherworksUtils.knifecamp2, 1);
-            if (GameManager.GetInventoryComponent().GearInInventory(knife1, 1))
+    
+            if (GameManager.GetInventoryComponent().GetBestGearItemWithName(LeatherworksUtils.knife1.name) is object)
+            {
+                knife1 = GameManager.GetInventoryComponent().GetBestGearItemWithName(LeatherworksUtils.knife1.name);
+                knife1_exist = true;
+            }
+
+            if (GameManager.GetInventoryComponent().GetBestGearItemWithName(LeatherworksUtils.knife2.name) is object)
+            {
+                knife2 = GameManager.GetInventoryComponent().GetBestGearItemWithName(LeatherworksUtils.knife2.name);
+                knife2_exist = true;
+            }
+            
+            if (thisGearItem == null) return;
+            
+            if (knife1_exist || knife2_exist)
+            {
+            
+            if (knife1_exist)
             {
                 knife1.m_CurrentHP = knife1.m_CurrentHP - 3;
             }    
-            else if (GameManager.GetInventoryComponent().GearInInventory(knife2, 1))
+            else if (knife2_exist)
             {
                 knife2.m_CurrentHP = knife2.m_CurrentHP - 4;
             }
@@ -818,7 +854,7 @@ namespace Leatherworks
             //{
             //    knife4.m_CurrentHP = knife4.m_CurrentHP - 7;
             //}
-
+            }
             GameManager.GetPlayerManagerComponent().InstantiateItemInPlayerInventory(LeatherworksUtils.barkrope, 1);
         }
 
@@ -862,3 +898,6 @@ namespace Leatherworks
 
     }
 }
+
+
+
